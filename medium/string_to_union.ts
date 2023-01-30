@@ -20,7 +20,7 @@
 /* _____________ Your Code Here _____________ */
 
 type StringToUnion<T extends string> = T extends `${infer C}${infer T}`
-  ? C | Action<T>
+  ? C | StringToUnion<T>
   : never;
 
 // usage of string literal to get the first char and append to union
