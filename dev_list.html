@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS Challenges</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html,
+    body {
+      font-family: "Inter";
+      color: #131313;
+      line-height: 1.5;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.5;
+    }
+    .master_anchor {
+      color: inherit;
+      text-decoration: none;
+      color: rgb(5, 5, 144);
+      font-weight: bold;
+    }
+    a:hover,
+    a:focus {
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+    main {
+      width: min(100%, 768px);
+      margin: 1rem auto;
+      display: grid;
+      gap: 10px;
+      padding: 0 10px;
+    }
+    table {
+      border-collapse: collapse;
+      margin: 1.5rem 0 1rem;
+      table-layout: auto;
+      max-width: 650px;
+    }
+    bg-gray {
+      background-color: #f7f7f7;
+    }
+
+    th {
+      padding: 0.5rem 1rem;
+      font-size: 1.125rem;
+    }
+
+    tbody td {
+      padding: 0.5rem 1rem;
+      border-top: 1px solid #e6e6e6;
+    }
+
+    a {
+      color: rgb(5, 5, 144);
+      text-decoration: none;
+    }
+    caption {
+      text-align: left;
+      background-color: #f7f7f7;
+      padding: 10px;
+      font-weight: bold;
+    }
+    .intro_text_wrapper {
+      margin: 40px 0;
+      display: grid;
+      gap: 1rem;
+    }
+  </style>
+  <body>
+    <main>
+      <div class="intro_text_wrapper">
+        <h1>Type Challenges Solutions</h1>
+        <p>
+          TS challenges is a repo I created and maintain to hone my TS skills.
+          These TS challenges can become difficult sometimes. This collection
+          serves as a good solution reference.
+        </p>
+        <p>
+          This collection is a step-wise solution to
+          <a
+            target="_blank"
+            class="master_anchor"
+            href="https://github.com/type-challenges/type-challenges"
+            target="_blank"
+            >Type Challenges</a
+          >
+          repo questions. I have tried to keep the solutions as detailed and
+          correct as possible. Please feel free to contribute to make this
+          colletion even better
+        </p>
+      </div>
+      <table>
+        <caption>
+          Warmers
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col" style="width: 50px"></th>
+            <th scope="col" align="left" scope="col" style="width: 400px"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>hello world</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/warmers/hello_world.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table>
+        <caption>
+          Easy
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col" style="width: 50px"></th>
+            <th scope="col" align="left" scope="col" style="width: 400px"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>awaited</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/awaited.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>concat</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/concat.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>exclude</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/exclude.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>first of array</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/first_of_array.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>if</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/if.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>length of tuple</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/length_of_tuple.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>parameters</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/parameters.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>pick</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/pick.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>push</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/push.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>readonly</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/readonly.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>tuple to object</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/tuple_to_object.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>tuple to union</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/tuple_to_union.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>unshift</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/easy/unshift.ts"
+                >solution</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <caption>
+          Medium
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col" style="width: 50px"></th>
+            <th scope="col" align="left" scope="col" style="width: 400px"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>absolute</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/absolute.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>any_of</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/any_of.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>append_arguement</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/append_arguement.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>append_to_object</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/append_to_object.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>BEM_style_string</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/BEM_style_string.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>capitalize</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/capitalize.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>deep_readonly</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/deep_readonly.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>diff</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/diff.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>drop_char</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/drop_char.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>ends_with</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/ends_with.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>flatten</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/flatten.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>flip</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/flip.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>kebab_case</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/kebab_case.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>last</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/last.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>last_of_array</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/last_of_array.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>length_of_string</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/length_of_string.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>merge</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/merge.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>minus_one</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/minus_one.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>object_entries</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/object_entries.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>omit</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/omit.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>omit_by_type</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/omit_by_type.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>pick_by_type</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/pick_by_type.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>pop</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/pop.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>readonly</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/readonly.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>replace</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/replace.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>return_type</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/return_type.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>reverse</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/reverse.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>shift</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/shift.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>starts_with</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/starts_with.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>string_to_union</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/string_to_union.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>trim</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/trim.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>trim_left</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/trim_left.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>trim_right</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/trim_right.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>trunc</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/trunc.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>tuple_to_nested_object</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/tuple_to_nested_object.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>tuple_to_union</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/tuple_to_union.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>type_lookup</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/type_lookup.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>38</td>
+            <td>unique</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/unique.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>39</td>
+            <td>without</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/without.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>zip</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/medium/zip.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table>
+        <caption>
+          Hard
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col" style="width: 50px"></th>
+            <th scope="col" align="left" scope="col" style="width: 400px"></th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>drop_char</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/drop_char.ts    "
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>get_optional</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/get_optional.ts "
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>get_required</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/get_required.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>is_palindrome</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/is_palindrome.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>maximum</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/maximum.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>snake_case</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/snake_case.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>split</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/split.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>string_join</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/string_join.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>string_to_num</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/string_to_num.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>tuple_filter</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/tuple_filter.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>two_sum</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/hard/two_sum.ts"
+                >Solution</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+
+  <script>
+    const data = [
+      "hard/drop_char.ts    ",
+      "hard/get_optional.ts ",
+      "hard/get_required.ts",
+      "hard/is_palindrome.ts",
+      "hard/maximum.ts",
+      "hard/snake_case.ts",
+      "hard/split.ts",
+      "hard/string_join.ts",
+      "hard/string_to_num.ts",
+      "hard/tuple_filter.ts",
+      "hard/two_sum.ts",
+    ];
+    data.forEach((elem, index) => {
+      console.log(`<tr>
+            <td>${index + 1}</td>
+            <td>${elem.split("/")[1].split(".")[0]}</td>
+            <td>
+              <a
+                target="_blank"
+                href="https://github.com/rakesh-gupta29/ts-challenges/blob/main/${elem}"
+                >Solution</a
+              >
+            </td>
+          </tr>`);
+    });
+  </script>
+</html>
