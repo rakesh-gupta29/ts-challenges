@@ -26,7 +26,7 @@ type SplitDraft1<
   : [S];
 type Check1 = SplitDraft1<"Hi! How are you?", "">;
 
-// edge case : iempty string at the end of tuple
+// edge case : empty string at the end of tuple
 type SplitDraft2<
   S extends string,
   Sep extends string
