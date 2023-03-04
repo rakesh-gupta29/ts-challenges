@@ -1,5 +1,8 @@
 # TS-Challenges
 
+Afterall, TS exists to generate JS runtime. So, Extracting best out of Types,
+We need to restrain the types to as small space as possible.
+
 List of TS challenges and their questions to hone my TS skills.
 
 This repo contains a series of challenges from type-challenges and multiple other sources.
@@ -34,3 +37,7 @@ Feel free to contribute with your own solutions and improvements.
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+### Doubts :
+
+- what does extending to an empty object mean in TS
