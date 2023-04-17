@@ -20,9 +20,7 @@ const man: Man = {
 };
 
 listenToKeyChanges(man, {
-  onNameChange: (update: string) => {
-    console.log("do something with ", update);
-  },
+  
   onAgeChange: (update: number) => {
     console.log("do something with", update);
   },

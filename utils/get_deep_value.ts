@@ -21,4 +21,4 @@ const someObject = {
   },
 };
 
-getDeepValue(someObject, "address", "lang");
+getDeepValue(someObject, "address", "street");
